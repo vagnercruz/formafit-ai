@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'core/app_theme.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const FormaFitApp());
@@ -14,7 +15,7 @@ class FormaFitApp extends StatelessWidget {
       title: 'FormaFit AI',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
-      home: const Scaffold(),
+      home: const HomeScreen(),
     );
   }
 }
