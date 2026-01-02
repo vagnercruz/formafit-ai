@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'core/app_theme.dart';
 
 void main() {
   runApp(const FormaFitApp());
@@ -12,6 +13,7 @@ class FormaFitApp extends StatelessWidget {
     return MaterialApp(
       title: 'FormaFit AI',
       debugShowCheckedModeBanner: false,
+      theme: AppTheme.light(),
       home: const Scaffold(),
     );
   }
